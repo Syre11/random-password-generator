@@ -14,13 +14,13 @@ generateBtn.addEventListener("click", writePassword);
 ///////////////////////// DO NOT CHANGE ABOVE HERE /////////////////////////
 
 function generatePassword() {
-    var passLength = prompt("How long would you like the password to be?");
+    var passLength = prompt("How long would you like the password to be? (8-128 characters)");
     passLength = Number(passLength)
     if (passLength < 8) {
-      alert("Password is too short, must be between 8 and 128 characters.")
+      alert("Password is too short, must be at least 8 characters.")
       return;
     } else if (passLength > 128) {
-      alert("Password is too long, must be between 8 and 128 characters.");
+      alert("Password is too long, must be 128 characters or less.");
       return;
     }  else {
       alert("Password is a valid length.")
