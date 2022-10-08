@@ -14,7 +14,7 @@ Click on the 'Generate Password' button, a prompt will pop up, follow the prompt
 
 ## Credits
 
-Starter code from: University of Washington Coding Bootcamp
+Starter code from: https://github.com/coding-boot-camp/friendly-parakeet
 
 ## License
 
